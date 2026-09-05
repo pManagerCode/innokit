@@ -1,0 +1,590 @@
+/* .pattern_yellow.fadeInUp {
+  animation: customFadeInUp 1s, pulseInfinite 2.5s infinite;
+}
+
+.hero-arrow.swing {
+  animation-name: swingInfinite;
+  animation-iteration-count: infinite !important;
+  animation-duration: 2.5s !important;
+}
+
+.hero-cat.rotateInDownRight {
+  animation: slightRightFadeIn 1s, rotateInDownRightInfinite 2s 1s infinite;
+}
+
+.hero-arrow-down.slideInDown {
+  animation-name: slideInDownInfinite;
+  animation-iteration-count: infinite !important;
+  animation-duration: 2s !important;
+}
+.hero-content-container.fadeInDown {
+  animation-name: fadeInDownHeroTextInfinite;
+  animation-duration: 1s !important;
+}
+
+.green-pattern.slideInRight {
+  animation-name: greenslideInRight;
+}
+
+.leg-kick-image.slideInRight {
+  animation-name: legkickslideInRight;
+  animation-iteration-count: infinite !important;
+  animation-duration: 1.25s !important;
+}
+
+.pink-badge.zoomIn {
+  animation-name: zoomInBadge;
+  animation-iteration-count: infinite !important;
+  animation-duration: 2.5s !important;
+}
+
+.teddy-image-container.wobble {
+  animation-name: wobbleTeddy;
+  animation-iteration-count: infinite !important;
+}
+
+.bottom-container-image.wobble {
+  animation: customFadeInUp 1s, pulseInfinite 2.5s infinite;
+}
+
+.contact-hero-flakes.rotateIn,
+.black-footer-flakes.rotateIn {
+  animation-name: rotateInFlakes;
+  animation-iteration-count: infinite !important;
+  animation-duration: 9s !important;
+}
+.bottom-container-hand-image.rotateInUpLeft {
+  animation-name: rotateInUpLeftHand;
+  animation-iteration-count: infinite !important;
+  animation-duration: 3s !important;
+}
+
+.everybody-content-container.fadeInLeft {
+  animation-name: everybodyfadeInLeft;
+}
+
+.everyone-content-container.fadeInRight {
+  animation-name: everyonefadeInRight;
+}
+
+.hero-content-container.fadeInDown {
+  animation-name: fadeInDownHeroTextInfinite;
+}
+
+.camera-image.slideInUp {
+  animation-name: cameraSlideInUp;
+}
+
+.big-star.fadeIn {
+  animation-name: starFadeIn;
+  animation-iteration-count: infinite !important;
+  animation-duration: 3s !important;
+}
+
+.small-star.fadeIn {
+  animation-name: starFadeIn;
+  animation-iteration-count: infinite !important;
+  animation-duration: 2s !important;
+}
+
+.very-simple-item.fadeInLeft {
+  animation-name: verysimpleitemfadeInLeft;
+}
+
+.right-item-list.animated .elementor-icon-list-item,
+.membership-list.animated .elementor-icon-list-item {
+  animation-name: rightitemfadeInRight !important;
+  animation-duration: 1s !important;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.right-item-list.animated .elementor-icon-list-item:nth-of-type(2),
+.membership-list.animated .elementor-icon-list-item:nth-of-type(2) {
+  animation-delay: 1s;
+}
+
+.right-item-list.animated .elementor-icon-list-item:nth-of-type(3),
+.membership-list.animated .elementor-icon-list-item:nth-of-type(3) {
+  animation-delay: 2s;
+}
+
+.access-money-swiper.animated .swiper-slide,
+.very-membership-plans.animated .swiper-slide {
+  animation-name: customFadeIn !important;
+  animation-duration: 1s !important;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.access-money-swiper.animated .swiper-slide {
+  animation-duration: 0.7s !important;
+}
+
+.access-money-swiper.animated .swiper-slide:nth-of-type(2),
+.very-membership-plans.animated .swiper-slide:nth-of-type(2) {
+  animation-delay: 0.25s;
+}
+
+.access-money-swiper.animated .swiper-slide:nth-of-type(3),
+.very-membership-plans.animated .swiper-slide:nth-of-type(3) {
+  animation-delay: 0.5s;
+}
+
+.very-membership-plans.animated .swiper-slide:nth-of-type(4) {
+  animation-delay: 0.75s;
+}
+
+.get-started-arrow.rotateIn,
+.light-bottom.rotateIn,
+.light-top.rotateIn,
+.retro-man.rotateIn {
+  animation-name: retroManRotateIn !important;
+  animation-iteration-count: infinite !important;
+  animation-duration: 3s;
+}
+
+.retro-man.rotateIn {
+  animation-duration: 1.5s;
+}
+
+.get-started-arrow.rotateIn {
+  animation-name: getStartedRotateIn !important;
+  animation-duration: 2.5s;
+}
+
+.very-item-button-box.fadeIn,
+.very-item.fadeIn {
+  animation-name: itemFadeIn !important;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s !important;
+  animation-delay: 300ms !important;
+  opacity: 0;
+}
+
+.very-item.fadeIn:nth-of-type(2) {
+  animation-delay: 450ms !important;
+}
+
+.very-item.fadeIn:nth-of-type(3) {
+  animation-delay: 600ms !important;
+}
+
+.very-item-container.animated .very-item-button-box {
+  animation-delay: 600ms !important;
+}
+
+.comitted-container.animated .comitted-item.fadeIn,
+.comitted-container.animated .comitted-title-container.fadeIn {
+  animation-name: itemFadeIn !important;
+  animation-fill-mode: forwards;
+  animation-duration: 1.25s !important;
+  animation-delay: 700ms !important;
+  opacity: 0;
+}
+
+.comitted-container.animated .comitted-title-container.fadeIn {
+  animation-delay: 500ms !important;
+}
+
+.comitted-container.animated .comitted-item.comitted-item--1.fadeIn {
+  animation-delay: 900ms !important;
+}
+
+.comitted-container.animated .comitted-item.comitted-item--4.fadeIn {
+  animation-delay: 1100ms !important;
+}
+
+.comitted-container.animated .comitted-item.comitted-item--2.fadeIn {
+  animation-delay: 1300ms !important;
+}
+
+.comitted-container.animated .comitted-item.comitted-item--5.fadeIn {
+  animation-delay: 1500ms !important;
+}
+
+@keyframes rotateInFlakes {
+  0% {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+  }
+
+  50% {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  100% {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+  }
+}
+
+@keyframes rotateInUpLeftHand {
+  0% {
+    transform: translate3d(-5%, 2%, 0) rotate3d(0, 0, 1, -2deg);
+  }
+
+  50% {
+    transform: translate3d(5%, 0%, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  100% {
+    transform: translate3d(-5%, 2%, 0) rotate3d(0, 0, 1, -2deg);
+  }
+}
+
+@keyframes wobblePattern {
+  from,
+  to {
+    transform: none;
+  }
+
+  15% {
+    transform: translate3d(-1%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  30% {
+    transform: translate3d(1%, 0, 0) rotate3d(0, 0, 1, 1deg);
+  }
+
+  45% {
+    transform: translate3d(-1%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  60% {
+    transform: translate3d(1%, 0, 0) rotate3d(0, 0, 1, 1deg);
+  }
+
+  75% {
+    transform: translate3d(-1%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+}
+
+@keyframes wobbleTeddy {
+  0% {
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  50% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  100% {
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+}
+
+@keyframes zoomInBadge {
+  0% {
+    transform: scale3d(0.7, 0.7, 0.7);
+  }
+  50% {
+    transform: scale3d(1, 1, 1);
+  }
+  100% {
+    transform: scale3d(0.7, 0.7, 0.7);
+  }
+}
+
+@keyframes legkickslideInRight {
+  0% {
+    transform: translate3d(15%, 0, 0);
+    visibility: visible;
+  }
+  50% {
+    transform: translate3d(0%, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(15%, 0, 0);
+    visibility: visible;
+  }
+}
+@keyframes greenslideInRight {
+  0% {
+    transform: translate3d(100%, -100%, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
+@keyframes slightRightFadeIn {
+  0% {
+    transform-origin: right bottom;
+    opacity: 0;
+    transform: translate3d(15%, 0, 0) rotate3d(0, 0, 1, -2deg);
+  }
+  100% {
+    transform-origin: right bottom;
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+}
+@keyframes customFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pulseInfinite {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes fadeInDownHeroTextInfinite {
+  0% {
+    transform: translate3d(0, -20%, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes swingInfinite {
+  0% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  50% {
+    transform: rotate3d(0, 0, 1, 10deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+}
+@keyframes swingInfinite {
+  0% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  50% {
+    transform: rotate3d(0, 0, 1, 10deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+}
+
+@keyframes rotateInDownRightInfinite {
+  0% {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 2deg);
+  }
+  50% {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  100% {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 2deg);
+  }
+}
+
+@keyframes slideInDownInfinite {
+  0% {
+    transform: translate3d(0, 0%, 0);
+    visibility: visible;
+  }
+  50% {
+    transform: translate3d(0, 15%, 0);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes everybodyfadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-10%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes everyonefadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(10%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes cameraSlideInUp {
+  0% {
+    transform: translate3d(0, 10%, 0);
+    visibility: visible;
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes starFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  30%,
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes verysimpleitemfadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-20%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes rightitemfadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes customFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes retroManRotateIn {
+  0% {
+    transform: rotate3d(0, 0, 1, -3deg);
+  }
+
+  50% {
+    transform: rotate3d(0, 0, 1, 3deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, -3deg);
+  }
+}
+
+@keyframes getStartedRotateIn {
+  0% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  50% {
+    transform: rotate3d(0, 0, 1, 10deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+}
+
+@keyframes faqHeroSlideInRight {
+  0% {
+    transform: translate3d(100%, 0, 0) rotateY(180deg);
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotateY(180deg);
+  }
+}
+
+@keyframes itemFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .faq-hero-shadow-image.slideInLeft,
+  .faq-hero-image.slideInLeft {
+    animation-name: faqHeroSlideInRight !important;
+  }
+
+  .very-item-button-box.fadeIn,
+  .very-item.fadeIn {
+    animation-name: itemFadeIn !important;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s !important;
+    animation-delay: 200ms !important;
+    opacity: 0;
+  }
+
+  .very-item.fadeIn:nth-of-type(2) {
+    animation-delay: 250ms !important;
+  }
+
+  .very-item.fadeIn:nth-of-type(3) {
+    animation-delay: 300ms !important;
+  }
+
+  .very-item-container.animated .very-item-button-box.fadeIn {
+    animation-delay: 200ms !important;
+  }
+
+  .comitted-container.animated {
+    animation-duration: 500ms !important;
+  }
+
+  .comitted-container.animated .comitted-item.fadeIn,
+  .comitted-container.animated .comitted-title-container.fadeIn {
+    animation-name: itemFadeIn !important;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s !important;
+    animation-delay: 200ms !important;
+    opacity: 0;
+  }
+
+  .comitted-container.animated .comitted-item.comitted-item--1.fadeIn,
+  .comitted-container.animated .comitted-item.comitted-item--2.fadeIn,
+  .comitted-container.animated .comitted-item.comitted-item--3.fadeIn,
+  .comitted-container.animated .comitted-item.comitted-item--4.fadeIn,
+  .comitted-container.animated .comitted-item.comitted-item--5.fadeIn {
+    animation-delay: 200ms !important;
+  }
+
+ 
+}
+ */

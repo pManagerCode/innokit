@@ -1,0 +1,58 @@
+HTTrack3.50-0 launched on Sat, 05 Sep 2026 23:05:52 at https://innokit.com.au +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(httrack -O /storage/emulated/0/HTTrack/Websites/innokit.com.au https://innokit.com.au +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -A25000 -%k -%P -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l en,* -u1 -s2 -%s -%u -%f -D -a -K0 -H0 -N0 -p3 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:07:45	Error: 	"Not Found" (404) at link https://innokit.com.au/cdn-cgi/l/email-protection (from https://innokit.com.au/)
+23:08:06	Error: 	"Not Found" (404) at link https://innokit.com.au/wp-content/uploads/2024/10/wwr-next.svg (from https://innokit.com.au/wp-content/themes/zb-elementor/style.css?id=5&ver=1.0.0)
+23:08:06	Error: 	"Not Found" (404) at link https://innokit.com.au/wp-content/uploads/2024/10/wwr-prev.svg (from https://innokit.com.au/wp-content/themes/zb-elementor/style.css?id=5&ver=1.0.0)
+23:08:07	Warning: 	Moved Permanently for https://innokit.com.au/?p=2093
+23:08:07	Warning: 	File has moved from https://innokit.com.au/?p=2093 to https://innokit.com.au/about-us/
+23:08:20	Warning: 	Moved Permanently for https://innokit.com.au/?p=109
+23:08:20	Warning: 	File has moved from https://innokit.com.au/?p=109 to https://innokit.com.au/what-we-do/
+23:08:20	Warning: 	Moved Permanently for https://innokit.com.au/?p=111
+23:08:20	Warning: 	File has moved from https://innokit.com.au/?p=111 to https://innokit.com.au/gallery/
+23:08:20	Warning: 	Moved Permanently for https://innokit.com.au/?p=107
+23:08:20	Warning: 	File has moved from https://innokit.com.au/?p=107 to https://innokit.com.au/contact-us/
+23:08:21	Warning: 	Moved Permanently for https://innokit.com.au/?p=1157
+23:08:21	Warning: 	File has moved from https://innokit.com.au/?p=1157 to https://innokit.com.au/kembla-kitchen-landing-page/
+23:08:27	Error: 	"Not Found" (404) at link https://innokit.com.au/OPR/ (from https://innokit.com.au/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.2)
+23:08:27	Error: 	"Not Found" (404) at link https://innokit.com.au/l (from https://innokit.com.au/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+23:08:27	Error: 	"Not Found" (404) at link https://innokit.com.au/e (from https://innokit.com.au/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+23:08:27	Error: 	"Not Found" (404) at link https://innokit.com.au/t.params.url (from https://innokit.com.au/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+23:08:27	Error: 	"Not Found" (404) at link https://innokit.com.au/window.location.href (from https://innokit.com.au/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.24.2)
+23:08:27	Error: 	"Not Found" (404) at link https://innokit.com.au/p[Yp(Cw.Y5 (from https://innokit.com.au/cdn-cgi/challenge-platform/h/g/scripts/jsd/330e41bb475c/main.js?)
+23:08:29	Warning: 	Moved Permanently for https://innokit.com.au/?p=2823
+23:08:29	Warning: 	File has moved from https://innokit.com.au/?p=2823 to https://innokit.com.au/premium-stainless-steel-joinery/
+23:08:58	Warning: 	Moved Permanently for https://innokit.com.au/?p=2934
+23:08:58	Warning: 	File has moved from https://innokit.com.au/?p=2934 to https://innokit.com.au/test-gallery/
+23:14:29	Warning: 	Moved Permanently for https://innokit.com.au/?p=3138
+23:14:29	Warning: 	File has moved from https://innokit.com.au/?p=3138 to https://innokit.com.au/products/door-panels/
+23:14:29	Info: 	Retry after error -2 (Receive Time Out) at link https://innokit.com.au/contact-us (from https://innokit.com.au/products/door-panels/)
+23:14:29	Info: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://innokit.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finnokit.com.au%2Fproducts%2Fnano-crystal-door%2F (from https://innokit.com.au/products/nano-crystal-door/)
+23:14:29	Info: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://innokit.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finnokit.com.au%2Fproducts%2Fnano-crystal-door%2F&format=xml (from https://innokit.com.au/products/nano-crystal-door/)
+23:14:29	Info: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://innokit.com.au/wp-json/wp/v2/al_product/2906 (from https://innokit.com.au/products/nano-crystal-door/)
+23:14:31	Warning: 	Moved Permanently for https://innokit.com.au/?p=2906
+23:14:31	Warning: 	File has moved from https://innokit.com.au/?p=2906 to https://innokit.com.au/products/nano-crystal-door/
+23:14:31	Info: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://innokit.com.au/wp-content/uploads/2025/06/凯雪-橱柜-2-1-scaled.jpg (from https://innokit.com.au/products/nano-crystal-door/)
+23:14:33	Warning: 	Moved Permanently for https://innokit.com.au/?p=2833
+23:14:33	Warning: 	File has moved from https://innokit.com.au/?p=2833 to https://innokit.com.au/products/powder-coated-door/
+23:14:33	Warning: 	Moved Permanently for https://innokit.com.au/?p=2907
+23:14:33	Warning: 	File has moved from https://innokit.com.au/?p=2907 to https://innokit.com.au/products/aupcel-shaker-door/
+23:14:33	Warning: 	Moved Permanently for https://innokit.com.au/?p=3128
+23:14:33	Warning: 	File has moved from https://innokit.com.au/?p=3128 to https://innokit.com.au/products/a2-joinery/
+23:14:33	Warning: 	Moved Permanently for https://innokit.com.au/?p=3123
+23:14:33	Warning: 	File has moved from https://innokit.com.au/?p=3123 to https://innokit.com.au/products/a8-joinery/
+23:14:33	Warning: 	Moved Permanently for https://innokit.com.au/?p=3086
+23:14:33	Warning: 	File has moved from https://innokit.com.au/?p=3086 to https://innokit.com.au/products/new-benchtop/
+23:14:33	Warning: 	Moved Permanently for https://innokit.com.au/?p=3178
+23:14:33	Warning: 	File has moved from https://innokit.com.au/?p=3178 to https://innokit.com.au/products/outdoor-kitchen/
+23:14:33	Warning: 	Moved Permanently for https://innokit.com.au/contact-us
+23:14:33	Warning: 	File has moved from https://innokit.com.au/contact-us to https://innokit.com.au/contact-us/
+23:14:33	Error: 	Unable to save file /storage/emulated/0/HTTrack/Websites/innokit.com.au/innokit.com.au/contact-us: Is a directory
+
+HTTrack Website Copier/3.50-0 mirror complete in 8 minutes 41 seconds : 656 links scanned, 625 files written (142880813 bytes overall) [140450023 bytes received at 269577 bytes/sec], 4654074 bytes transferred using HTTP compression in 173 files, ratio 22%, 20.6 requests per connection
+(10 errors, 32 warnings, 5 messages)
