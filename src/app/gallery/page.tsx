@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const galleryImages = Array.from({ length: 12 }, (_, index) => {
   const number = String(index + 1).padStart(3, "0");
@@ -10,8 +11,14 @@ export default function Gallery() {
     <main className="gallery-page">
       <section className="gallery-heading">
         <nav className="nav shell">
-          <Link className="wordmark" href="/" aria-label="Innokit home">
-            INNOKIT<span>.</span>
+          <Link className="header-logo" href="/" aria-label="Innokit home">
+            <Image
+              src="/innokit-header-logo.svg"
+              alt="Innokit"
+              width={200}
+              height={50}
+              priority
+            />
           </Link>
           <div className="nav-links">
             <a href="/what-we-do">What we do</a>

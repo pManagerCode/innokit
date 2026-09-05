@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const services = [
   "Kitchen",
@@ -18,8 +19,14 @@ export default function WhatWeDo() {
     <main className="what-page">
       <section className="what-hero">
         <nav className="nav shell">
-          <Link className="wordmark" href="/" aria-label="Innokit home">
-            INNOKIT<span>.</span>
+          <Link className="header-logo" href="/" aria-label="Innokit home">
+            <Image
+              src="/innokit-header-logo.svg"
+              alt="Innokit"
+              width={200}
+              height={50}
+              priority
+            />
           </Link>
           <div className="nav-links">
             <a href="/what-we-do">What we do</a>

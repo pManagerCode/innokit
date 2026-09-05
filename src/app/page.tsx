@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const services = [
   "Kitchen",
   "Pantry",
@@ -33,8 +35,14 @@ export default function Home() {
     <main>
       <section className="hero" id="top">
         <nav className="nav shell">
-          <a className="wordmark" href="#top" aria-label="Innokit home">
-            INNOKIT<span>.</span>
+          <a className="header-logo" href="#top" aria-label="Innokit home">
+            <Image
+              src="/innokit-header-logo.svg"
+              alt="Innokit"
+              width={200}
+              height={50}
+              priority
+            />
           </a>
           <div className="nav-links">
             <a href="#what-we-do">What we do</a>
@@ -216,8 +224,14 @@ export default function Home() {
         </div>
       </section>
       <footer className="footer shell">
-        <a className="wordmark" href="#top">
-          INNOKIT<span>.</span>
+        <a className="footer-logo" href="#top" aria-label="Innokit home">
+          <Image
+            src="/innokit-header-logo.svg"
+            alt="Innokit"
+            width={200}
+            height={50}
+            priority
+          />
         </a>
         <div>
           <p>0424 023 832 (NSW) &nbsp; / &nbsp; 0420 345 766 (QLD)</p>
