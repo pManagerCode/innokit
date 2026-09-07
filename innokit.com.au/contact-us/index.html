@@ -87,6 +87,15 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link rel="apple-touch-icon" href="../wp-content/uploads/2025/01/cropped-Innokit-Master-Square-White-RGB-180x180.png" />
 <meta name="msapplication-TileImage" content="../wp-content/uploads/2025/01/cropped-Innokit-Master-Square-White-RGB-270x270.png" />
 <style id="wp-custom-css">
+.showroom-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px 64px; width: min(100%, 980px); margin: 0 auto; }
+.showroom-entry { text-align: center; }
+.showroom-entry h2, .showroom-entry p { margin: 0; }
+.showroom-entry h2 { color: #ffffff; font-family: "Articulat CF", Sans-serif; font-size: 24px; font-weight: 500; line-height: 28px; }
+.showroom-entry p { color: #ffffff; font-family: "Articulat CF", Sans-serif; font-size: 18px; font-weight: 700; line-height: 24px; }
+.showroom-booking { display: block; width: fit-content; margin: 40px auto 0; border: 2px solid #ECAE4B; border-radius: 2px; background: #fa9b03; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); padding: 15px 34px; color: #f8f6f6 !important; font-family: "Articulat CF", Sans-serif; font-size: 26px !important; font-weight: 700 !important; line-height: 24px; text-decoration: none  !important; transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease; }
+.showroom-booking:hover, .showroom-booking:focus {  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3); color: #171717; transform: translateY(-2px); }
+@media (max-width: 767px) { .showroom-list { grid-template-columns: 1fr; gap: 36px; } }
+.elementor-element-c5d860e .elementor-element-fb33747, .elementor-element-c5d860e .elementor-element-e56c408, .elementor-element-c5d860e .elementor-element-133fe63 { display: none; }
 
 
 
@@ -227,6 +236,25 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				</div>
 		<div class="elementor-element elementor-element-c5d860e e-con-full e-flex e-con e-child" data-id="c5d860e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 		<div class="elementor-element elementor-element-001a6c2 e-con-full e-flex e-con e-child" data-id="001a6c2" data-element_type="container">
+		<div class="showroom-list">
+			<div class="showroom-entry">
+				<h2>Smithfield Innokit Showroom</h2>
+				<p>97 Market St, Smithfield NSW 2164</p>
+			</div>
+			<div class="showroom-entry">
+				<h2>QLD Showroom</h2>
+				<p>35 Hillside Crescent, Hamilton, QLD 4007</p>
+			</div>
+			<div class="showroom-entry">
+				<h2>WATERLOOW Showroom</h2>
+				<p>297 Botany Rd, Waterloo, NSW 2017</p>
+			</div>
+			<div class="showroom-entry">
+				<h2>Kembla Kitchen Showroom</h2>
+				<p>1/161-163 Wentworth Street, Port Kembla, NSW 2505</p>
+			</div>
+		</div>
+		<a class="showroom-booking" href="https://calendly.com/innokit-smithfield/30min?text_color=000000&amp;primary_color=9da382" target="_blank" rel="noopener">Book an appointment</a>
 		<div class="elementor-element elementor-element-fb33747 e-con-full e-flex e-con e-child" data-id="fb33747" data-element_type="container">
 				<div class="elementor-element elementor-element-5e22474 elementor-widget elementor-widget-heading" data-id="5e22474" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
