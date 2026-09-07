@@ -90,6 +90,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link rel="apple-touch-icon" href="../wp-content/uploads/2025/01/cropped-Innokit-Master-Square-White-RGB-180x180.png" />
 <meta name="msapplication-TileImage" content="../wp-content/uploads/2025/01/cropped-Innokit-Master-Square-White-RGB-270x270.png" />
 <style id="wp-custom-css">
+.gallery-lightbox { align-items: center; background: rgba(0, 0, 0, 0.9); display: flex; inset: 0; justify-content: center; padding: 24px; position: fixed; z-index: 9999; }
+.gallery-lightbox[hidden] { display: none; }
+.gallery-lightbox img { max-height: 90vh; max-width: 92vw; object-fit: contain; }
+.gallery-lightbox-close { background: transparent; border: 0; color: #ffffff; cursor: pointer; font-size: 42px; line-height: 1; padding: 8px 14px; position: absolute; right: 16px; top: 12px; }
 
 
 
@@ -421,6 +425,47 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 	
 </main>
+
+<script>
+	document.querySelectorAll('.e-gallery-image[data-thumbnail]').forEach(function (image) {
+		image.style.backgroundImage = 'url("' + image.dataset.thumbnail + '")';
+	});
+
+	const galleryLightbox = document.createElement('div');
+	galleryLightbox.className = 'gallery-lightbox';
+	galleryLightbox.hidden = true;
+	galleryLightbox.innerHTML = '<button class="gallery-lightbox-close" type="button" aria-label="Close image">&times;</button><img alt="">';
+	document.body.appendChild(galleryLightbox);
+
+	const galleryLightboxImage = galleryLightbox.querySelector('img');
+	const closeGalleryLightbox = function () {
+		galleryLightbox.hidden = true;
+		galleryLightboxImage.removeAttribute('src');
+		document.body.style.overflow = '';
+	};
+
+	document.querySelectorAll('.e-gallery-item[href]').forEach(function (item) {
+		item.addEventListener('click', function (event) {
+			event.preventDefault();
+			galleryLightboxImage.src = item.href;
+			galleryLightboxImage.alt = item.dataset.elementorLightboxTitle || 'Gallery image';
+			galleryLightbox.hidden = false;
+			document.body.style.overflow = 'hidden';
+		});
+	});
+
+	galleryLightbox.querySelector('.gallery-lightbox-close').addEventListener('click', closeGalleryLightbox);
+	galleryLightbox.addEventListener('click', function (event) {
+		if (event.target === galleryLightbox) {
+			closeGalleryLightbox();
+		}
+	});
+	document.addEventListener('keydown', function (event) {
+		if (event.key === 'Escape' && !galleryLightbox.hidden) {
+			closeGalleryLightbox();
+		}
+	});
+</script>
 
 			<div data-elementor-type="footer" data-elementor-id="597" class="elementor elementor-597 elementor-location-footer" data-elementor-post-type="elementor_library">
 			<div class="elementor-element elementor-element-4d289424 e-con-full pl-50-cont e-flex e-con e-parent" data-id="4d289424" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
